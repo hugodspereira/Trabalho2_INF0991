@@ -23,3 +23,10 @@ void WriteCubes()
 
   int Cube(int value) => value * value * value;   // Método local
 }
+
+//V2.2
+int x = 3;
+Foo();        // 3
+
+// Foo é um método local
+void Foo() => Console.WriteLine(x); 
